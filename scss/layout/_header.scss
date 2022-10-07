@@ -1,49 +1,30 @@
-nav {
-  padding-block: 1rem;
+.hero {
+  background-image: url(/images/header/hsh_banner_home.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #f8f8f8;
+  background-size: 195%;
   .wrapper {
     padding-inline: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    max-width: 1230px;
+    margin: 0 auto;
   }
 }
-.nav-options {
+.inner-container {
+  min-height: 250px;
   display: flex;
-  align-items: center;
-  @media screen and (min-width: 480px) {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-  }
-  ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 0.5rem;
-    list-style: none;
-    border-right: 1px solid #fde200;
-    color: #a4a4a4;
-    padding-block: 1rem;
-    padding-inline: 0.25rem;
-    @media screen and (min-width: 480px) {
-      border-right: 0;
-      border-left: 1px solid #fde200;
+  justify-content: flex-end;
+  margin-left: 50%;
+  .inner-content {
+    max-width: 300px;
+    padding: 32px 16px;
+    h1 {
+      font-size: 24px;
+      font-weight: 100;
+      line-height: 1.2;
     }
-    li {
-      i {
-        color: #a4a4a4;
-        font-size: 20px;
-      }
+    button {
+      padding: 16px;
     }
-  }
-}
-.mobile-only-menu {
-  padding-left: 0.25rem;
-  i {
-    color: #fde200;
-    font-size: 32px;
-  }
-  @media screen and (min-width: 480px) {
-    padding-right: 0.25rem;
   }
 }
