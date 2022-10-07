@@ -7,6 +7,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    img {
+      width: 100% !important;
+      height: 100%;
+      display: block;
+    }
   }
 }
 .nav-options {
@@ -26,6 +31,7 @@ nav {
     padding: 0;
     margin: 0;
     display: flex;
+
     gap: 0.5rem;
     list-style: none;
     border-right: 1px solid #fde200;
@@ -36,6 +42,11 @@ nav {
       border-right: 0;
       border-left: 1px solid #fde200;
     }
+    @media screen and (min-width: 1232px) {
+      padding-left: 16px;
+      gap: 20px;
+    }
+
     li {
       i {
         color: #a4a4a4;
@@ -71,10 +82,10 @@ nav {
     margin: 0;
     display: flex;
     padding-block: 1rem;
-    padding-inline: 2rem;
+    padding-inline: 1rem;
     display: flex;
     color: #a4a4a4;
-    gap: 2.5rem;
+    gap: 2rem;
     list-style: none;
     border-right: 0;
     text-transform: uppercase;
