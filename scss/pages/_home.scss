@@ -11,8 +11,13 @@
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  @media screen and (max-width: 768px) {
+  width: 100%;
+  @media screen and (max-width: 480px) {
     flex-direction: column;
+    gap: 0.5rem;
+  }
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
     gap: 0.5rem;
   }
 }
@@ -20,6 +25,10 @@
   padding: 0.75rem;
   background-color: #eee;
   width: 68%;
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
+
   input {
     border: 0;
     min-height: 60px;
@@ -36,31 +45,39 @@
     padding-inline: 1rem;
     max-width: 1230px;
     margin: 0 auto;
+    overflow: hidden;
   }
 }
 .categories-container {
   margin-block: 1rem;
   .categories-grid {
-    height: 120vh;
+    height: 100%;
     list-style: none;
     display: grid;
+    place-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, minmax(120px, 1fr));
     margin: 0;
     padding: 0;
     @media screen and (min-width: 480px) {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(4, minmax(120px, 1fr));
+      grid-template-columns: repeat(3, minmax(150px, 244px));
+      grid-template-rows: repeat(4, minmax(120px, 162px));
     }
     @media screen and (min-width: 768px) {
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(3, minmax(120px, 1fr));
+      grid-template-columns: repeat(4, minmax(150px, 270px));
+      grid-template-rows: repeat(3, minmax(162px, 260px));
+    }
+
+    @media screen and (min-width: 1232px) {
+      grid-template-columns: repeat(4, 270px);
+      grid-template-rows: repeat(3, 260px);
     }
   }
 }
 .box {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 300;
+
   @media screen and (max-width: 480px) {
     font-size: 16px;
   }
@@ -73,7 +90,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
 
   a {
@@ -90,7 +107,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
@@ -106,7 +123,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
@@ -122,7 +139,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
@@ -138,7 +155,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
@@ -154,7 +171,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
@@ -170,7 +187,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
@@ -186,7 +203,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
@@ -202,7 +219,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
@@ -218,7 +235,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
@@ -234,7 +251,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 96%;
+  height: 100%;
   width: 100%;
   a {
     width: 100%;
