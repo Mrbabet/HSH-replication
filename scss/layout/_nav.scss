@@ -68,6 +68,114 @@ nav {
     list-style: none;
     border-right: 0;
     text-transform: uppercase;
+    position: relative;
+    li {
+      padding-block: 1rem;
+    }
+  }
+  .nav-links-002 {
+    position: absolute;
+    display: none;
+    text-align: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+  }
+
+  .menu-company:hover {
+    li {
+      padding-block: 0.5rem;
+    }
+    .submenu-company {
+      display: block;
+      padding-inline: 1.5rem;
+      margin-top: 1rem;
+      left: -25px;
+    }
+    .highlight:hover {
+      display: inline;
+      background: #fde200;
+      color: #ffffff;
+      box-shadow: 0.125rem 0 0 #fde200, -0.125rem 0 0 #fde200;
+    }
+  }
+  .menu-locations:hover {
+    li {
+      padding-block: 0.5rem;
+    }
+    .submenu-locations {
+      display: block;
+      padding-inline: 1.5rem;
+      margin-top: 1rem;
+      left: 20px;
+    }
+    .highlight:hover {
+      display: inline;
+      background: #fde200;
+      color: #ffffff;
+      box-shadow: 0.125rem 0 0 #fde200, -0.125rem 0 0 #fde200;
+    }
+  }
+  .menu-products:hover {
+    li {
+      padding-block: 0.5rem;
+    }
+    .submenu-products {
+      display: block;
+      padding-inline: 1.5rem;
+      margin-top: 1rem;
+      left: 30px;
+    }
+    .highlight:hover {
+      display: inline;
+      background: #fde200;
+      color: #ffffff;
+      box-shadow: 0.125rem 0 0 #fde200, -0.125rem 0 0 #fde200;
+    }
+  }
+  .menu-compliance:hover {
+    li {
+      padding-block: 0.5rem;
+    }
+    .submenu-compliance {
+      display: block;
+      padding-inline: 1.5rem;
+      margin-top: 1rem;
+      left: 280px;
+    }
+    .highlight:hover {
+      display: inline;
+      background: #fde200;
+      color: #ffffff;
+      box-shadow: 0.125rem 0 0 #fde200, -0.125rem 0 0 #fde200;
+    }
+  }
+  .menu-contact:hover {
+    li {
+      padding-block: 0.5rem;
+    }
+    .submenu-contact {
+      display: block;
+      padding-inline: 1.5rem;
+      margin-top: 1rem;
+      left: 409px;
+    }
+    .highlight:hover {
+      display: inline;
+      background: #fde200;
+      color: #ffffff;
+      box-shadow: 0.125rem 0 0 #fde200, -0.125rem 0 0 #fde200;
+    }
+  }
+  .menu-careers:hover,
+  .menu-cellq:hover {
+    .highlight {
+      display: inline;
+      background: #fde200;
+      color: #ffffff;
+      box-shadow: 0.125rem 0 0 #fde200, -0.125rem 0 0 #fde200;
+    }
   }
 }
 @media screen and (min-width: 1232px) {
