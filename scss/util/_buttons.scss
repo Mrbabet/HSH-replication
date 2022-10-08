@@ -37,8 +37,9 @@
     @media screen and (max-width: 378px) {
       font-size: 12px;
     }
-
     a {
+      display: flex;
+      justify-content: center;
       margin: auto;
       font-weight: 900;
       min-height: 84px;
