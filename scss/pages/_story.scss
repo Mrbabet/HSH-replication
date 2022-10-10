@@ -1,0 +1,11 @@
+.story-carousel {
+  margin-block: 2rem;
+  .wrapper {
+    padding-inline: 1rem;
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+  .news-article:hover {
+    background-color: rgba(221, 221, 221, 0.2);
+  }
+}
