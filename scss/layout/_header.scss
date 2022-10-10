@@ -103,3 +103,54 @@
     }
   }
 }
+.company-hero {
+  background-image: url(/images/header/hsh_banner_company.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #f8f8f8;
+  background-size: 195%;
+  @media screen and (min-width: 980px) {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f8f8f8;
+    background-size: 155%;
+  }
+  @media screen and (min-width: 1232px) {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f8f8f8;
+    background-size: contain;
+  }
+
+  .wrapper {
+    padding-inline: 1rem;
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+}
+.inner-container {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+    margin-left: 50%;
+  }
+  .inner-content {
+    max-width: 350px;
+    padding: 32px 16px;
+    h1 {
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1.2;
+      @media screen and (min-width: 980px) {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 1.3;
+      }
+    }
+  }
+}
