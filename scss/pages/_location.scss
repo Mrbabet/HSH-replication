@@ -1,0 +1,29 @@
+.location-section {
+  margin-block: 2rem;
+  .wrapper {
+    padding-inline: 1rem;
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+}
+.location-container {
+  display: flex;
+  h2 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+  h3 {
+    font-weight: 300;
+  }
+  .locations-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    padding: 2rem 3rem;
+  }
+}
+.flex-row {
+  display: flex;
+  gap: 4rem;
+}
