@@ -5,7 +5,22 @@
     max-width: 1230px;
     margin: 0 auto;
   }
-  .news-article:hover {
-    background-color: rgba(221, 221, 221, 0.2);
+}
+
+.carousel-container {
+  position: relative;
+  padding-bottom: 2rem;
+  height: 320px;
+}
+.article {
+  width: 100%;
+}
+.article {
+  position: absolute;
+}
+.section-nav {
+  .flex {
+    display: flex;
+    justify-content: space-around;
   }
 }
