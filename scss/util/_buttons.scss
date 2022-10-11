@@ -57,12 +57,14 @@
   }
 }
 .location-info {
+  height: 43.9vh;
+
   .link {
     font-size: 14px;
     outline: 0;
     border: 0;
     background-color: #fff100;
-    margin-top: 1rem;
+
     display: flex;
     justify-content: center;
     @media screen and (max-width: 378px) {
@@ -79,6 +81,37 @@
       @media screen and (max-width: 378px) {
         padding-inline: 2px;
       }
+    }
+  }
+  .first-container {
+    .select-country {
+      width: min-content;
+      display: block;
+      position: relative;
+      select {
+        border: 1px solid#f8f8f8;
+        background-color: #f8f8f8;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        font-weight: 300;
+        min-width: auto;
+        min-height: 60px;
+        padding-block: 24px;
+        padding-inline: 64px;
+        padding-right: 200px;
+        position: relative;
+      }
+    }
+    .select-country::after {
+      content: "";
+      position: absolute;
+      background-image: url(/images/utility/arrow_down_yellow.png);
+      background-repeat: no-repeat;
+      right: 20px;
+      bottom: 32px;
+      width: 15px;
+      height: 10px;
     }
   }
 }
