@@ -1,0 +1,35 @@
+.location-info {
+  margin-block: 2rem;
+  .wrapper {
+    padding-inline: 1rem;
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+}
+.first-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.third-container {
+  .careers,
+  .comercial-info,
+  .cert {
+    display: none;
+  }
+}
+.info-button {
+  width: calc((100% - 40px) / 5);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  padding: 1rem 2rem;
+  span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

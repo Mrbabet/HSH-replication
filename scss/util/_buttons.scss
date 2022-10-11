@@ -56,3 +56,29 @@
     }
   }
 }
+.location-info {
+  .link {
+    font-size: 14px;
+    outline: 0;
+    border: 0;
+    background-color: #fff100;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 378px) {
+      font-size: 12px;
+    }
+
+    a {
+      font-weight: 900;
+      min-width: auto;
+      min-height: 60px;
+      padding-block: 24px;
+      padding-inline: 64px;
+      text-transform: uppercase;
+      @media screen and (max-width: 378px) {
+        padding-inline: 2px;
+      }
+    }
+  }
+}
